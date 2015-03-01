@@ -1,59 +1,60 @@
 ---
+title:   Mac nastavenie
 isChild: true
 anchor:  mac_setup
 ---
 
-## Mac Setup {#mac_setup_title}
+## Mac Nastavenie {#mac_setup_title}
 
-OS X comes prepackaged with PHP but it is normally a little behind the latest stable. Mountain Lion has 5.3.10,
-Mavericks has 5.4.17 and Yosemite has 5.5.9, but with PHP 5.6 out that is often not good enough.
+OS X má predpripravené PHP, ale zvyčajte o niečo staršiu verziu než je aktuálna stabilná. Mountain Lion má
+5.3.10, Mavericks má 5.4.17 a Yosemite má 5.5.9. Ale s aktuálným PHP 5.6 to to nie je dostatočné.
 
-There are multiple ways to install PHP on OS X.
+Existuje niekoľko spôsobov ako nainštalovať PHP na OS X.
 
-### Install PHP via Homebrew
+### Inštalácia PHP pomocou Homebrew
 
-[Homebrew] is a powerful package manager for OS X, which can help you install PHP and various extensions easily.
-[Homebrew PHP] is a repository that contains PHP-related "formulae" for Homebrew, and will let you install PHP.
+[Homebrew] je výkonný balíčkovací manager pre OS X, ktorý Vám môže jednoducho pomôcť nainštalovať PHP
+a rozličné rozšírenia. [Homebrew PHP] je repozitár, ktorý obsahuje PHP-prepojenú "formulae" pre Homebrew a dovolí
+Vám nainštalovať PHP.
 
-At this point, you can install `php53`, `php54`, `php55` or `php56` using the `brew install` command, and switch
-between them by modifying your `PATH` variable.
+Momentálne môžete inštalovať `php53`, `php54`, `php55` alebo `php56` pomocou `brew install` príkazu a prepínať
+medzi nimi pomocou modifikácie `PATH` premennej.
 
-### Install PHP via Macports
+### Inštalácia PHP pomocou Macports
 
-The [MacPorts] Project is an open-source community initiative to design an
-easy-to-use system for compiling, installing, and upgrading either
-command-line, X11 or Aqua based open-source software on the OS X operating
-system.
+[MacPorts] Projekt je open-source komunitná iniciatíva pre prípravu ľahkopoužiteľného systému pre kompilovanie,
+inštalovanie a aktualizovanie open-source softvéru pre OS X operačný systému či už na báze prikazového riadku,
+X11 alebo Aqua rozhrania.
 
-MacPorts supports pre-compiled binaries, so you don't need to recompile every
-dependencies from the source tarball files, it saves your life if you don't
-have any package installed on your system.
+MacPorts podporuje pred-kompilované binárné súbory, čiže už nepotrebujete kompilovať všetky závislosti zo
+zdrojových tarball súborov. Zachráni Vám to život ak nemáte žiaden balíček nainštalovaný na svojom operačnom
+systéme.
 
-At this point, you can install `php53`, `php54`, `php55` or `php56` using the `port install` command, for example:
+Momentálne môžete inštalovať `php53`, `php54`, `php55` alebo `php56` pomocou `port install` príkazu, napríklad:
 
     sudo port install php54
     sudo port install php55
 
-And you can run `select` command to switch your active php:
+A môžete spustiť `select` príkaz pre prepnutie aktívneho php:
 
     sudo port select --set php php55
 
-### Install PHP via phpbrew
+### Inštalácia PHP pomocou phpbrew
 
-[phpbrew] is a tool for installing and managing multiple PHP versions. This can be really useful if two different
-applications/projects require different versions of PHP, and you are not using virtual machines.
+[phpbrew] je nástroj pre inštaláciu a správu viacero PHP verzií. Vie byť obzvlášť užitočný, ak 2 rozdielne
+aplikácie/projekty potrebujú rozdielné verzie PHP a nepoužívate virtuálne stroje.
 
-### Compile from Source
+### Kompilácia zo zdroja
 
-Another option that gives you control over the version of PHP you install, is to [compile it yourself][mac-compile].
-In that case be sure to have installed either [Xcode][xcode-gcc-substitution] or Apple's substitute
-["Command Line Tools for XCode"] downloadable from Apple's Mac Developer Center.
+Ďalšia varianta, ktorá prináša možnosť výberu nainštalovanej PHP verzie je [samostatné kompilovanie][mac-compile].
+V tom prípade si určite nainštalujte či už [Xcode][xcode-gcc-substitution] alebo Apple kompatibilné
+["Command Line Tools for XCode"] voľné stiahnuteľné z Apple Mac Developer Center.
 
-### All-in-One Installers
+### All-in-One Inštalátory
 
-The solutions listed above mainly handle PHP itself, and do not supply things like Apache, Nginx or a SQL server.
-"All-in-one" solutions such as [MAMP][mamp-downloads] and [XAMPP][xampp] will install these other bits of software for
-you and tie them all together, but ease of setup comes with a trade-off of flexibility.
+Vyššie spomínané riešenia obsahujú hlavne samotné PHP a nedodávajú veci Apache, Nginx alebo SQL server.
+"All-in-one" riešenia ako [MAMP][mamp-downloads] a [XAMPP][xampp] nainštalujú tieto ostatné časti ako ucelený
+softvér. Táto jednoduchosť inštalácie ale prináša stratu flexibility.
 
 
 [Homebrew]: http://brew.sh/

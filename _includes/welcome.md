@@ -1,24 +1,24 @@
-# Welcome
+# Vitajte
 
-There's a lot of outdated information on the Web that leads new PHP users astray,
-propagating bad practices and insecure code. _PHP: The Right Way_ is an easy-to-read,
-quick reference for PHP popular coding standards, links to authoritative tutorials
-around the Web and what the contributors consider to be best practices at the present
-time.
+Na webe sa nachádza mnoho neaktuálnych informácií, ktoré navádzajú nových PHP
+používateľov na zlé chodníky, propagujú zlé praktiky a nebezpečný kód. _PHP:
+The Right Way_ je ľahko čitateľný, rýchly prehľad populárnych PHP programovacích
+štandardov, odkazy na overené návody na webe a to, čo autori považujú za najlepšie
+praktiky súčasnosti.
 
-_There is no canonical way to use PHP_. This website aims to introduce new PHP
-developers to some topics which they may not discover until it is too late, and aims
-to give seasoned pros some fresh ideas on those topics they've been doing for years
-without ever reconsidering. This website will also not tell you which tools to use, but
-instead offer suggestions for multiple options, when possible explaining the differences
-in approach and use-case.
+_Neexistuje žiaden predpísaný spôsob ako používať PHP_. Táto stránka sa snaží
+oboznámiť nových PHP programátorov s témami, ktoré by nemuseli objaviť až kým
+by nebolo neskoro. Zároveň sa snaží aj ostrieľaným profesionálom ponúknuť nový
+pohľad na veci, ktoré robili roky bez uváženia. Táto stránka Vám nepovie, ktoré
+nástroje by ste mali používať. Namiesto toho navrhne viacero možností spolu s popisom
+výhod a nevýhod každého z riešení.
 
-This is a living document and will continue to be updated with more helpful information
-and examples as they become available.
+Toto je živý dokument a bude aktualizovaný o ďalšie užitočné informácie akonáhle
+budú dostupné.
 
-## Translations
+## Preklady
 
-_PHP: The Right Way_ is translated into many different languages:
+_PHP: The Right Way_ je preložený do mnoho ďalších jazykov:
 
 * [English](http://www.phptherightway.com)
 * [Bulgarian](http://bg.phptherightway.com/)
@@ -36,20 +36,22 @@ _PHP: The Right Way_ is translated into many different languages:
 * [Romanian](https://bgui.github.io/php-the-right-way/)
 * [Russian](http://getjump.github.io/ru-php-the-right-way)
 * [Serbian](http://smatejic.github.io/php-the-right-way/)
+* [Slovak](http://sk.phptherightway.com)
 * [Slovenian](http://sl.phptherightway.com)
 * [Spanish](http://phpdevenezuela.github.io/php-the-right-way/)
 * [Thai](https://apzentral.github.io/php-the-right-way/)
 * [Turkish](http://hkulekci.github.io/php-the-right-way/)
 * [Ukrainian](http://iflista.github.com/php-the-right-way/)
 
-## How to Contribute
+## Ako prispieť
 
-Help make this website the best resource for new PHP programmers! [Contribute on GitHub][1]
+Pomôžte tejto stránke byť najlepším zdrojom pre nových PHP prográmatorov! [Prispejte na GitHube][1]
 
-## Spread the Word!
+## Propagujte nás!
 
-_PHP: The Right Way_ has web banner images you can use on your website. Show your support, and let new PHP developers
-know where to find good information!
+_PHP: The Right Way_ má webové bannery, ktoré môžete použiť na Vašej webovej
+stránke. Podporte nás a ukážte novým PHP programátorom, kde nájdu správne
+informácie!
 
 [See Banner Images][2]
 

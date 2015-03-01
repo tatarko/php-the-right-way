@@ -1,5 +1,6 @@
 ---
+title:  Vlastnosti jazyka
 anchor: language_highlights
 ---
 
-# Language Highlights {#language_highlights_title}
+# Vlastnosti jazyka {#language_highlights_title}

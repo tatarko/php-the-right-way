@@ -1,28 +1,30 @@
 ---
+title:   Rozhranie príkazového riadku
 isChild: true
 anchor:  command_line_interface
 ---
 
-## Command Line Interface {#command_line_interface_title}
+## Rozhranie príkazového riadku {#command_line_interface_title}
 
-PHP was created to write web applications, but is also useful for scripting command line interface (CLI) programs.
-Command line PHP programs can help automate common tasks like testing, deployment, and application administration.
+PHP bolo vytvorené pre písaní webových aplikácií, ale je použiteľné aj pre skriptovanie rozhraní príkazového riadku
+(CLI). Programy príkazového riadku môžu napomôcť automatizovať bežné veci ako testovanie, deployment a aministrácia
+aplikácií.
 
-CLI PHP programs are powerful because you can use your app's code directly without having to create and secure a web
-GUI for it. Just be sure **not** to put your CLI PHP scripts in your public web root!
+CLI PHP programy sú užitočné preto, lebo môžete využívať kód vašej aplikácie bez potreby vytvárania a zabezpečovania
+webového GUI. Len samozrejme **nedávajte** vaše CLI PHP skripty do vášho verejného web priečinku!
 
-Try running PHP from your command line:
+Vyskúšajte spustiť PHP z príkazového riadku:
 
 {% highlight console %}
 > php -i
 {% endhighlight %}
 
-The `-i` option will print your PHP configuration just like the [`phpinfo()`][phpinfo] function.
+Prepínač `-i` vypíše vašu PHP konfiguráciu podobne ako [`phpinfo()`][phpinfo] funkcia.
 
-The `-a` option provides an interactive shell, similar to ruby's IRB or python's interactive shell. There are a number
-of other useful [command line options][cli-options], too.
+Prepínač `-a` ponúka interaktívny shell podobný IRB od ruby alebo python-ovému interaktívnemu shellu. Okrem toho
+existuje ešte množstvo užitočných [prepínačov prákazového riadku][cli-options].
 
-Let's write a simple "Hello, $name" CLI program. To try it out, create a file named `hello.php`, as below.
+Napíšme jednoduchý "Hello, $name" CLI program. Pre vyskúšanie vytvorte súbor pomenovaný `hello.php` ako nižšie.
 
 {% highlight php %}
 <?php
@@ -34,14 +36,14 @@ $name = $argv[1];
 echo "Hello, $name\n";
 {% endhighlight %}
 
-PHP sets up two special variables based on the arguments your script is run with. [`$argc`][argc] is an integer
-variable containing the argument *count* and [`$argv`][argv] is an array variable containing each argument's *value*.
-The first argument is always the name of your PHP script file, in this case `hello.php`.
+PHP nastaví dve špeciálne premenné na základe argumentov, s ktorými spustíte svoj skript. [`$argc`][argc] je číselná
+premenná obsahujúca *počet* argumentov and [`$argv`][argv] je pole obsahujúce hodnotu *každého* argumentu.
+Prvý argument je vždy názov vášho PHP skriptu, v tomto prípade `hello.php`.
 
-The `exit()` expression is used with a non-zero number to let the shell know that the command failed. Commonly used
-exit codes can be found [here][exit-codes].
+Výraz `exit()`  sa používa s nenulovou hodnotou na to, aby shell vedel, že príkaz skončil chybou. Často používané
+exit kódy môžete nájsť [tu][exit-codes].
 
-To run our script, above, from the command line:
+Pre spustenie nášho skriptu vyššie z príkazového riadku:
 
 {% highlight console %}
 > php hello.php
@@ -51,8 +53,8 @@ Hello, world
 {% endhighlight %}
 
 
- * [Learn about running PHP from the command line][php-cli]
- * [Learn about setting up Windows to run PHP from the command line][php-cli-windows]
+ * [Priučte sa spúšťaniu PHP z príkazového riadku][php-cli]
+ * [Priučte sa nastaveniu Windowsu na spustenie PHP z príkazového riadku][php-cli-windows]
 
 
 [phpinfo]: http://php.net/function.phpinfo
